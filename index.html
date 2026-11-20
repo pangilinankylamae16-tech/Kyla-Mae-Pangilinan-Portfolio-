@@ -1,8 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Kyla Mae's personal online portfolio."><title>Kyla Mae | Personal Portfolio</title><link rel="stylesheet" href="style.css"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kyla Mae Pangilinan's personal online portfolio">
+  <title>Kyla Mae Pangilinan | Online Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html">Kyla Mae.</a><nav aria-label="Main navigation"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a></nav></div></header>
-<main><section class="hero"><div><div class="eyebrow">Welcome to my personal portfolio</div><h1>Hello, I'm <span>Kyla Mae.</span></h1><p>I am a first-year Bachelor of Science in Information Technology student who enjoys learning new things, exploring technology, and creating meaningful projects. This portfolio is a glimpse of my background, skills, and experiences.</p><a class="button" href="portfolio.html">Explore My Work</a></div><div class="photo-card"><div class="photo-placeholder"><div class="initials">KM</div><strong>Your professional photo</strong><small>Replace this placeholder with your own picture when ready.</small></div></div></section>
-<section class="section"><div class="section-heading"><div class="eyebrow">A little introduction</div><h2>Learning, creating, and growing.</h2><p>Building my skills one experience at a time.</p></div><div class="about-grid"><article class="panel"><h3>Who I Am</h3><p>I am a curious and responsible student with an interest in computers, digital creativity, and communication. I value teamwork, continuous learning, and opportunities that help me improve both personally and academically.</p></article><article class="panel"><h3>What I Bring</h3><p>My strengths include communication, organization, creativity, and willingness to learn. I enjoy working with others and doing my best in every task I take on.</p><div><span class="tag">Creativity</span><span class="tag">Teamwork</span><span class="tag">Leadership</span></div></article></div></section></main>
-<footer>© 2026 Kyla Mae · Personal Online Portfolio</footer></body></html>
+  <header class="site-header">
+    <a class="brand" href="#home">Kyla Mae<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">MY PERSONAL PORTFOLIO</p>
+        <h1>Hello, I'm <span>Kyla Mae</span></h1>
+        <p class="intro">A first-year Bachelor of Science in Information Technology student who enjoys learning, creating, and exploring how technology can solve everyday problems.</p>
+        <a class="button" href="#about">Get to know me</a>
+      </div>
+      <div class="photo-wrap">
+        <img src="photo.png" alt="Portrait of Kyla Mae Pangilinan"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="photo-placeholder" aria-label="Photo placeholder">KM</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Who I am</h2>
+      <p class="section-text">My name is Kyla Mae Pangilinan. I am a BSIT student at Mindoro State University – Calapan Campus. I am eager to improve my knowledge in information technology while developing my creativity, communication, and problem-solving skills. I believe that learning takes patience, practice, and the courage to try something new.</p>
+    </section>
+
+    <section class="section" id="education">
+      <p class="eyebrow">MY LEARNING JOURNEY</p>
+      <h2>Education</h2>
+      <div class="timeline">
+        <article class="info-card">
+          <span class="year">2026 – 2030</span>
+          <h3>Mindoro State University – Calapan Campus</h3>
+          <p>Bachelor of Science in Information Technology (BSIT)</p>
+        </article>
+        <article class="info-card">
+          <span class="year">2024 – 2026</span>
+          <h3>Canubing National High School</h3>
+          <p>Senior High School – General Academic Strand (GAS)</p>
+        </article>
+        <article class="info-card">
+          <span class="year">Elementary</span>
+          <h3>Canubing II Elementary School</h3>
+          <p>Primary education</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I CAN DO</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Microsoft Word</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Basic HTML & CSS</div>
+        <div class="skill">Basic photo and video editing</div>
+        <div class="skill">Data encoding and typing</div>
+        <div class="skill">Communication</div>
+        <div class="skill">Teamwork and leadership</div>
+        <div class="skill">Time management</div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact</h2>
+      <p class="section-text">Thank you for taking the time to visit my portfolio. I look forward to learning, growing, and connecting with others.</p>
+      <div class="contact-links">
+        <a href="mailto:pangilinan.kylamae@minsu.edu.ph">pangilinan.kylamae@minsu.edu.ph</a>
+        <a href="tel:09949392692">0994 939 2692</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Kyla Mae Pangilinan · Made with care</footer>
+</body>
+</html>
